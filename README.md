@@ -1,0 +1,1 @@
+Witam w pliku opisowym!
