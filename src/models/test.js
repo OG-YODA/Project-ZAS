@@ -1,0 +1,2 @@
+// models/test.ts
+export {};

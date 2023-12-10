@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "text": "The capital of France",
+      "options": ["Paris", "London", "Rome", "Madrid"],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": 2,
+      "text": "The capital of Germany",
+      "options": ["Berlin", "Moscow", "Amsterdam", "Vienna"],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": 3,
+      "text": "The capital of Spain",
+      "options": ["Madrid", "Barcelona", "Lisbon", "Rome"],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": 4,
+      "text": "The capital of Italy",
+      "options": ["Rome", "Athens", "Paris", "Berlin"],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": 5,
+      "text": "The capital of Great Britain",
+      "options": ["London", "Dublin", "Oslo", "Stokholm"],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": 6,
+      "text": "The capital of Russia",
+      "options": ["Moscow", "Kyiv", "Warsaw", "Sofia"],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": 7,
+      "text": "The capital of China",
+      "options": ["Beijing", "Tokyo", "Seoul", "Hanoi"],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": 8,
+      "text": "The capital of Brazil",
+      "options": ["Brasilia", "Buenos Aires", "Lima", "Bogota"],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": 9,
+      "text": "The capital of South Africa",
+      "options": ["Cape Town", "Pretoria", "Johannesburg", "Nairobi"],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": 10,
+      "text": "The capital of India",
+      "options": ["New Delhi", "Bangkok", "Dakar", "Kathmandu"],
+      "correctOptionIndex": 0
+    }
+  ]
+  

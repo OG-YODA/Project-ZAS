@@ -1,0 +1,58 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Test</title>
+</head>
+
+<body>
+  <div id="test-container">
+    <div id="intro-section">
+      <h1>Welcome to test!</h1>
+      <p>
+        Test consists of 10 questions. Click on the button to start the test. You can
+        answer the questions in the order they appear on the screen. To finish test you must answer all the questions.
+        If you want to cancel the test, press the red cancel button. 
+      </p>
+      <button id="start-btn">Start test</button>
+    </div>
+
+    <div id="question-section">
+      <div id="question-text"></div>
+      <div id="options-container">
+      </div>
+    </div>
+
+    <div id="info-section">
+      <span id="timer">Time spent: 00:00</span>
+      <span id="progress"></span>
+    </div>
+
+    <div id="navigation-buttons">
+      <button id="back-btn">Back</button>
+      <button id="next-btn">Next</button>
+    </div>
+
+    <button id="finish-btn">Finish test</button>
+    <button id="cancel-btn">Cancel test</button>
+
+    <div id="results-section">
+      <h2>Test result</h2>
+      <div id="correct-answers">Correct answers: 0</div>
+      <div id="total-time">Total time: 00:00</div>
+      <div id="detailed-results-section"></div>
+    </div>
+  </div>
+
+  <script type="module" src="./src/app.js"></script>
+  <script type="module" src="./src/services/testService.js"></script>
+  <script type="module" src="./src/services/timeService.js"></script>
+  <script type="module" src="./src/views/testView.js"></script>
+</body>
+
+</html>
