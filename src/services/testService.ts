@@ -31,7 +31,7 @@ export class TestService {
   }
 
   setUserAnswer(index: number, answerIndex: number): void {
-    this.userAnswers[index] = this.userAnswers[answerIndex];
+    this.userAnswers[index] = answerIndex;
   }
 
   getUserAnswer(index: number): number {

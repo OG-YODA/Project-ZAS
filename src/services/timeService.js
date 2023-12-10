@@ -30,7 +30,7 @@ export class TimeService {
     stopTimer() {
         if (this.startTime !== null) {
             const endTime = Date.now();
-            const elapsedTime = (endTime - this.startTime) / 1000; // Convert to seconds
+            const elapsedTime = (endTime - this.startTime) / 1000;
             this.startTime = null;
             console.log(`Elapsed time: ${elapsedTime}`);
             return elapsedTime;
@@ -50,7 +50,7 @@ export class TimeService {
     calculateElapsedTime() {
         if (this.startTime !== null) {
             const currentTime = Date.now();
-            return Math.floor((currentTime - this.startTime) / 1000); // Return elapsed seconds
+            return Math.floor((currentTime - this.startTime) / 1000);
         }
         return 0;
     }
